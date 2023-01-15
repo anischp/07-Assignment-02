@@ -5,12 +5,20 @@
 }
 .btn-primary {
   border: none;
-  border-radius: 8px;
-  background-color: orange;
+  border-radius: 6px;
+  background-color: #ff900e;
   padding: 15px 20px;
   font-weight: 600;
   font-size: 18px;
   color: #ffffff;
+}
+.text-primary {
+  color: #131313;
+  font-weight: 700;
+}
+.text-secondary {
+  color: #ff900e;
+  font-weight: 700;
 }
 
 /* Header Styles */
@@ -35,6 +43,7 @@ header a {
   color: #424242;
   margin-left: 20px;
 }
+
 /* Banner styles */
 .banner {
   text-align: center;
@@ -57,4 +66,38 @@ header a {
   width: 100%;
   margin-top: 50px;
   margin-bottom: 45px;
+}
+
+/* Quick List styles */
+.quick-list {
+  margin: 85px 250px 130px 250px;
+}
+.quick-list-container {
+  display: flex;
+  gap: 20px;
+}
+.quick-views {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+.quick-views img {
+  width: 100%;
+  border-radius: 8px;
+}
+.quick-text {
+  margin-top: 15%;
+}
+.quick-text h1 {
+  font-weight: 500;
+  font-size: 35px;
+  color: #727272;
+}
+.quick-text p {
+  font-size: 14px;
+  color: #727272;
+  margin-top: 20px;
+}
+.quick-text button {
+  margin-top: 30px;
 }
