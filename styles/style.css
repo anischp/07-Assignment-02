@@ -226,3 +226,29 @@ header a {
   width: 90px;
   height: 90px;
 }
+
+/* Sponsors styles */
+.sponsors {
+  margin: 80px 200px 0 200px;
+  text-align: center;
+}
+.sponsors h1 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.sponsors p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #424242;
+  margin-bottom: 50px;
+}
+.sponsor-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sponsor img {
+  width: 75%;
+}
