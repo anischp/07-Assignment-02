@@ -201,9 +201,28 @@ header a {
   font-size: 30px;
   color: #424242;
   margin-top: 10px;
+  transition: font-size 1s, color 1s;
+}
+.fact h1:hover {
+  font-size: 60px;
+  color: #ff900e;
 }
 .fact h3 {
   font-size: 14px;
   color: #727272;
   margin-top: 10px;
+  transition: font-size 1s, color 1s;
+}
+.fact h3:hover {
+  font-size: 16px;
+  color: #ff900e;
+}
+.fact img {
+  width: 46px;
+  height: 46px;
+  transition: width 1s, height 1s;
+}
+.fact img:hover {
+  width: 90px;
+  height: 90px;
 }
